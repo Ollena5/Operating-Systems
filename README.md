@@ -16,6 +16,3 @@ To compile with both files (producer.cpp and consumer.cpp), type the following c
 g++ producer.cpp -pthread -lrt -o producer g++ consumer.cpp -pthread -lrt -o consumer
 
 ./producer & ./consumer
-
-##Example
-!example.png
