@@ -5,7 +5,11 @@ This is an example of the producer-consumer problem. The producer's role is to c
 
 ##Execution
 In order for this program to run please use the following commands:
-'$ g++ producer.cpp -pthread -lrt -o producer
-$ g++ consumer.cpp -pthread -lrt -o consumer
-$ ./producer & ./consumer &
+'g++ -pthread -lrt -o main main.cpp ./main
+
+To compile with both files (producer.cpp and consumer.cpp), type the following commands:
+
+g++ producer.cpp -pthread -lrt -o producer g++ consumer.cpp -pthread -lrt -o consumer
+
+./producer & ./consumer
 '
