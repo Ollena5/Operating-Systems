@@ -17,3 +17,5 @@ g++ producer.cpp -pthread -lrt -o producer g++ consumer.cpp -pthread -lrt -o con
 
 ./producer & ./consumer
 
+##Example
+!example.png
